@@ -1,32 +1,33 @@
 <!DOCTYPE html>
+<html lang="it">
 <head>
-
-
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archimede di Siracusa</title>
 </head>
 <body>
-    <strong> Archimede di Siracusa </strong> (in <a href="#"> greco antico</a>: Ἀρχιμήδης<a href="#"><sup>?</sup></a>, 
-    <i>Archimédēs</i>; <a href="#">Siracusa</a>, <a href="#">287 a.C.</a><br> 
-    circa – <a href="#">Siracusa</a>, <a href="#">212 a.C</a>) è
-    stato un <a href="#">matematico</a>, <a href="#">fisico</a> e <a href="#">inventore greco</a>.<br>
-    <br>
-    Considerato come uno dei più grandi 
-    <a href="#">scienziati</a> e matematici della storia, 
-    contribuì ad <br> avanzare la conoscenza in 
-    settori che spaziano dalla <a href="#">geometria</a> all'<a href="#">idrostatica</a>, <br> dall'<a href="#">ottica</a> alla <a href="#">meccanica</a>: 
-    fu in grado di calcolare la superficie e il volume della <a href="#">sfera</a> e <br> formulò le <a href="#">leggi che regolano il galleggiamento dei corpi</a>; 
-    in campo <a href="#">ingegneristico</a>, scoprì e sfruttò i <br> principi di funzionamento delle <a href="#">leve</a> e 
-    il suo stesso nome è associato a numerose macchine e <br> dispositivi, come la <a href="#">vite 
-    di Archimede</a>, a dimostrazione della sua capacità inventiva; circondate ancora <br> da un alone di mistero sono invece le macchine da guerra che Archimede 
-    avrebbe preparato per <br> difendere Siracusa dall'<a href="#">assedio romano</a>. <br>
-   <br> 
-    La sua vita è ricordata attraverso numerosi aneddoti, talvolta di origine 
-    incerta, che hanno contribuito a <br> costruire la figura dello 
-    scienziato nell'immaginario collettivo. È rimasta celebre nei secoli, 
-    ad esempio, <br> l'esclamazione <a href="#"><i>èureka!</i></a> (εὕρηκα! - <i>ho trovato!</i>) a lui attribuita 
-    dopo la scoperta del principio sul <br> galleggiamento dei corpi che 
-    ancora oggi porta il suo nome. <br>
-<br><a href="#"><strong>Leggi la voce</strong></a> - <a href="#"><strong>Tutte le voci di qualità</strong></a>
+
+    <p>
+      <strong> Archimede di Siracusa </strong> (in <a href="#"> greco antico</a>: Ἀρχιμήδης<a href="#"><sup>?</sup></a>, <i>Archimédēs</i>; <a href="#">Siracusa</a>, <a href="#">287 a.C.</a><br> 
+      circa – <a href="#">Siracusa</a>, <a href="#">212 a.C</a>) è stato un <a href="#">matematico</a>, <a href="#">fisico</a> e <a href="#">inventore greco</a>.
+    </p>
+    <p>
+      Considerato come uno dei più grandi <a href="#">scienziati</a> e matematici della storia, contribuì ad <br> 
+      avanzare la conoscenza in settori che spaziano dalla <a href="#">geometria</a> all'<a href="#">idrostatica</a>, <br>
+      dall'<a href="#">ottica</a> alla <a href="#">meccanica</a>: fu in grado di calcolare la superficie e il volume della <a href="#">sfera</a> e <br> 
+      formulò le <a href="#">leggi che regolano il galleggiamento dei corpi</a>; in campo <a href="#">ingegneristico</a>, scoprì e sfruttò i <br> 
+      principi di funzionamento delle <a href="#">leve</a> e il suo stesso nome è associato a numerose macchine e <br> 
+      dispositivi, come la <a href="#">vite di Archimede</a>, a dimostrazione della sua capacità inventiva; circondate ancora <br> 
+      da un alone di mistero sono invece le macchine da guerra che Archimede avrebbe preparato per <br> 
+      difendere Siracusa dall'<a href="#">assedio romano</a>.
+   </p>
+   <p>
+      La sua vita è ricordata attraverso numerosi aneddoti, talvolta di origine incerta, che hanno contribuito a <br> 
+      costruire la figura dello scienziato nell'immaginario collettivo. È rimasta celebre nei secoli, ad esempio, <br> 
+      l'esclamazione <a href="#"><i>èureka!</i></a> (εὕρηκα! - <i>ho trovato!</i>) a lui attribuita dopo la scoperta del principio sul <br> 
+      galleggiamento dei corpi che ancora oggi porta il suo nome. 
+    </p>
+     <a href="#"><strong>Leggi la voce</strong></a> - <a href="#"><strong>Tutte le voci di qualità</strong></a>
 
 </body>
 </html>
