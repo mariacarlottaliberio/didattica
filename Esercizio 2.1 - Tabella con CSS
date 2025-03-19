@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella con CSS</title>
+    <style>
+
+        thead {background-color: grey;
+        }
+        .th1, .th2 {width: 50px; 
+
+        }
+
+        /* Per quello che sarebbe stato "th3" ho usato il CSS in linea*/
+        
+        .th4, .th5, .th6 {width: 100px; 
+                          text-align: right;
+
+        }
+        .td1 {text-align: center;
+
+        }
+        .td2 {text-align: center;
+
+        }
+        .td3 {text-align: right;
+
+        }
+        .td4 {text-align: right;
+
+        }
+        .td5 {text-align: right;
+
+        }
+        .td6 {text-align: right; 
+              font-weight: bold;
+
+        }
+
+
+
+    </style>
+</head>
+<body>
+    <table width="100%">
+        <thead>
+
+            <tr>
+
+              <th class="th1">Anno</th>
+              <th class="th2">Rarità</th>
+              <th style="width: 50px; text-align: right;">Circolanti</th>
+              <th class="th4">Divisionali FDC</th>
+              <th class="th5">Divisionali FS</th>
+              <th class="th6">Tiratura totale</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+
+                <td class="td1">1955</td>
+                <td class="td2">NC</td>
+                <td class="td3">8.600.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">8.600.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1956</td>
+                <td class="td2">CC</td>
+                <td class="td3">99.800.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">99.800.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1957</td>
+                <td class="td2">CC</td>
+                <td class="td3">90.600.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">90.600.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1958</td>
+                <td class="td2">C</td>
+                <td class="td3">25.640.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">25.640.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1959</td>
+                <td class="td2">C</td>
+                <td class="td3">19.500.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">19.500.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1960</td>
+                <td class="td2">C</td>
+                <td class="td3">20.700.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">20.700.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1961</td>
+                <td class="td2">C</td>
+                <td class="td3">11.860.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">11.860.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1962</td>
+                <td class="td2">C</td>
+                <td class="td3">21.700.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">21.700.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1963</td>
+                <td class="td2">CC</td>
+                <td class="td3">33.100.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">33.100.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1964</td>
+                <td class="td2">CC</td>
+                <td class="td3">31.300.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">31.300.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1965</td>
+                <td class="td2">CC</td>
+                <td class="td3">37.000.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">37.000.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1966</td>
+                <td class="td2">CC</td>
+                <td class="td3">52.500.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">52.500.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1967</td>
+                <td class="td2">CC</td>
+                <td class="td3">23.700.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">23.700.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1968</td>
+                <td class="td2">CC</td>
+                <td class="td3">34.100.000</td>
+                <td class="td4">100.000</td>
+                <td></td>
+                <td class="td6">34.200.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1969</td>
+                <td class="td2">CC</td>
+                <td class="td3">27.400.000</td>
+                <td class="td4">310.000</td>
+                <td></td>
+                <td class="td6">27.710.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1970</td>
+                <td class="td2">CC</td>
+                <td class="td3">24.000.000</td>
+                <td class="td4">1.011.000</td>
+                <td></td>
+                <td class="td6">25.011.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1971</td>
+                <td class="td2">CC</td>
+                <td class="td3">24.900.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">24.900.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1972</td>
+                <td class="td2">CC</td>
+                <td class="td3">31.700.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">31.700.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1973</td>
+                <td class="td2">CC</td>
+                <td class="td3">30.780.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">30.780.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1974</td>
+                <td class="td2">CC</td>
+                <td class="td3">61.020.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">61.020.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1975</td>
+                <td class="td2">CC</td>
+                <td class="td3">106.650.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">106.650.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1976</td>
+                <td class="td2">CC</td>
+                <td class="td3">160.020.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">160.020.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1977</td>
+                <td class="td2">CC</td>
+                <td class="td3">253.980.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">253.980.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1978</td>
+                <td class="td2">CC</td>
+                <td class="td3">343.626.000</td>
+                <td></td>
+                <td></td>
+                <td class="td6">343.626.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1979</td>
+                <td class="td2">CC</td>
+                <td class="td3">351.533.600</td>
+                <td></td>
+                <td></td>
+                <td class="td6">351.533.600</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1980</td>
+                <td class="td2">CC</td>
+                <td class="td3">69.681.228</td>
+                <td class="td4">257.272</td>
+                <td></td>
+                <td class="td6">69.938.500</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1981</td>
+                <td class="td2">CC</td>
+                <td class="td3">122.118.906</td>
+                <td class="td4">162.794</td>
+                <td></td>
+                <td class="td6">122.281.700</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1982</td>
+                <td class="td2">CC</td>
+                <td class="td3">39.380.050</td>
+                <td class="td4">119.950</td>
+                <td></td>
+                <td class="td6">39.500.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1983</td>
+                <td class="td2">CC</td>
+                <td class="td3">24.923.448</td>
+                <td class="td4">76.552</td>
+                <td></td>
+                <td class="td6">25.000.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1984</td>
+                <td class="td2">CC</td>
+                <td class="td3">9.922.959</td>
+                <td class="td4">77.041</td>
+                <td></td>
+                <td class="td6">10.000.000</td>
+
+            </tr>
+        
+        </tbody>
+
+        <tfoot>        
+
+            <tr>
+
+                <td class="td1">1985</td>
+                <td class="td2">CC</td>
+                <td class="td3">9.908.782</td>
+                <td class="td4">91.218</td>
+                <td class="td5">20.345</td>
+                <td class="td6">10.020.345</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1986</td>
+                <td class="td2">CC</td>
+                <td class="td3">17.926.800</td>
+                <td class="td4">73.200</td>
+                <td class="td5">17.500</td>
+                <td class="td6">18.017.500</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1987</td>
+                <td class="td2">CC</td>
+                <td class="td3">24.942.500</td>
+                <td class="td4">57.500</td>
+                <td class="td5">10.000</td>
+                <td class="td6">25.010.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1988</td>
+                <td class="td2">CC</td>
+                <td class="td3">22.948.950</td>
+                <td class="td4">51.050</td>
+                <td class="td5">9.000</td>
+                <td class="td6">23.009.000</td>
+
+            </tr>
+            <tr>
+
+                <td class="td1">1989</td>
+                <td class="td2">CC</td>
+                <td class="td3">33.948.800</td>
+                <td class="td4">51.200</td>
+                <td class="td5">9.260</td>
+                <td class="td6">34.009.260</td>
+
+            </tr>
+        
+        </tfoot>    
+
+    </table>
+    
+</body>
+</html>
