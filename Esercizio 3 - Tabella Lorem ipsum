@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabella</title>
+    <style>
+        .lista1 {list-style: square;
+
+        }            
+
+        .text-tbody {color:gray
+        }
+      
+
+    </style>
+</head>
+<body>
+    <table width="40%" style="background-color: lightgray;">
+        <tbody class="text-tbody">
+            <tr>
+                <td>
+                     Lorem ipsum dolor sit<br> 
+                     amet. 
+                     <ul class="lista1">
+                        <li>Erat tempor consetetur <br>
+                            dolor facer no molestie <br>
+                            kasd.
+                        </li>
+                        <li>Dolores ex ea ipsum <br>
+                            labore est.
+                        </li>
+                        <li>Et quod sed dolores <br>
+                            adipiscing no diam.
+                        </li>
+                     </ul>              
+                </td>
+                <td>
+                    Lorem ipsum dolor sit<br>
+                    amet.
+                    <ol class="lista2">
+                        <li>Erat tempor consetetur <br>
+                            dolor facer no molestie <br>
+                            kasd.</li>
+                        <li>Dolores ex ea ipsum <br>
+                            labore est.</li>
+                        <li>Et quod sed dolores <br>
+                            edipiscing no diam <br>
+                            molestie.</li>  
+                    </ol>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
