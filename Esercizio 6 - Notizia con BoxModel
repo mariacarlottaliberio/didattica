@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizia</title>
+    <style>
+        * {box-sizing: border-box;
+           padding: 0px;
+           margin: 0px;
+          }
+        
+        div {
+            background-image: url(https://media.istockphoto.com/id/623526574/it/foto/donna-felice-sul-parco.jpg?s=612x612&w=is&k=20&c=NbNivVnOs5aU2UsHsoq1fpf1J9Mn83ThEdxQaKFYSyc=);
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100%;
+            height: auto;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            background-color: rgba(0, 0, 0, 0.5);
+            font-size: 40px;
+            max-width: fit-content;
+            max-height: fit-content;
+            position: relative;
+            top: 150px;
+            margin-left: 20px;
+        }
+           
+        p {
+            background-color: black;
+            font-size: 30px;
+            margin: 250px 0px 0px 0px;
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        <h1>UCCISA <br>
+            A MESSINA
+        </h1>
+        <p>
+            Lo studente che ha soccorso Sara Campanella:<br> 
+            “Ho provato a tamponare con la maglia la ferita”
+        </p>
+    </div>
+</body>
+</html>
