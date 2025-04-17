@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+        .section1 {
+            text-transform: uppercase;
+            color: rgb(159, 159, 159);
+            font-weight: 800;
+            font-family: Special Gothic Condensed One;
+            letter-spacing: 0.5pt;
+            font-size: smaller;
+        }
+
+        h1 {
+            font-size: 30pt;
+            font-family: Playfair Display;
+            font-weight: 600;
+            margin: 0;
+        }
+
+        h4 {
+            font-style: italic;
+            color: rgb(33, 204, 220);
+            font-family: Special Gothic Condensed One;
+            font-weight: normal;
+        }
+
+        .section2 {
+            font-weight: 500;
+            color: gray;
+            font-family: Special Gothic Condensed One;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <section class="section1">Il presidente della repubblica</section>
+        <h1>
+            Mattarella e la legge sul Ponte Morandi: <br>
+            rischio incostituzionalità, nei risarcimeti <br>
+            discriminati i figli di coppie conviventi
+        </h1>
+            <h4>di Claudio Del Frate</h4>
+        <section class="section2">
+            Il Quirinale ha firmato il provvedimento sui risarcimenti alle vittime del Ponte Morandi ma lo ha accompagnato da una lettera <br>
+            in cui ravvisa differenze di trattamento tra gli eredi di coppie sposate e quelli di coppie conviventi
+        </section>
+    </p>
+</body>
+</html>
