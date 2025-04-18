@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizia</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+       .section1 {
+            text-transform: uppercase;
+            color: rgb(159, 159, 159);
+            font-weight: 800;
+            font-family: Special Gothic Condensed One;
+            letter-spacing: 0.5pt;
+            font-size: smaller;
+        }
+
+        h1 {
+            font-size: 30pt;
+            font-family: Playfair Display;
+            font-weight: 600;
+            margin-top: 0;
+        }
+
+        h4 {
+            font-style: italic;
+            color: rgb(33, 204, 220);
+            font-family: Special Gothic Condensed One;
+            font-weight: normal;
+        }
+
+        .section2 {
+            font-weight: 500;
+            color: gray;
+            font-family: Special Gothic Condensed One;
+        }
+
+        .section3 {
+            font-family: Playfair Display;
+            font-weight: 500;
+            font-size: medium;
+        }       
+
+        .square {
+            color: rgb(33, 204, 220);
+        }
+
+        .span {
+            font-style: italic;
+            color: rgb(33, 204, 220);
+            font-family: Special Gothic Condensed One;
+            font-weight: normal;
+        }
+    </style>
+</head>
+<body>
+    <p>
+        <section class="section1">Il caso</section>
+        <h1>
+           La maestra dell'alunno <br>
+           plusdotato: &laquo;Faceva danni, <br>
+           ero spiazzata. Poi ho <br>
+           iniziato ad ascoltarlo&raquo;
+        </h1>
+            <h4>di Alice d'Este</h4>
+        <section class="section2">
+            L'insegnante di Montegrotto: <br>
+            &laquo;Sapeva già tutto, impossibile <br>
+            stimolarlo&raquo;. In regione migliaia di <br>
+            casi
+        </section>
+        <section class="section3">
+            <svg xmlns="http://www.w3.org/2000/svg" width="10" height="10" fill="currentColor" class="square" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2z"/>
+            </svg> Come si riconoscono i bambini plusdotati (e <br>
+                che cosa significa essere &laquo;gifted&raquo;) <span class="span">Turin</span>
+        </section>
+    </p>
+</body>
+</html>
