@@ -60,7 +60,7 @@
     </style>
 </head>
 <body>
-    <p>
+    <div>
         <section class="section1">Il caso</section>
         <h1>
            La maestra dell'alunno <br>
@@ -81,6 +81,6 @@
             </svg> Come si riconoscono i bambini plusdotati (e <br>
                 che cosa significa essere &laquo;gifted&raquo;) <span class="span">Turin</span>
         </section>
-    </p>
+    </div>
 </body>
 </html>
