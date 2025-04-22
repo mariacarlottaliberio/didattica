@@ -43,7 +43,7 @@
     </style>
 </head>
 <body>
-    <p>
+    <div>
         <section class="section1">Il presidente della repubblica</section>
         <h1>
             Mattarella e la legge sul Ponte Morandi: <br>
@@ -55,6 +55,6 @@
             Il Quirinale ha firmato il provvedimento sui risarcimenti alle vittime del Ponte Morandi ma lo ha accompagnato da una lettera <br>
             in cui ravvisa differenze di trattamento tra gli eredi di coppie sposate e quelli di coppie conviventi
         </section>
-    </p>
+    </div>
 </body>
 </html>
