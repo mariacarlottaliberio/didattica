@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page apple</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&family=Special+Gothic+Condensed+One&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <style>
+
+        body  {margin: 0px;
+               padding: 0px;
+        }
+
+        * {box-sizing: border-box;
+           padding: 0px;
+        }
+
+      .divcontenitore {display: flex;
+                       flex-wrap: wrap;
+                       flex-direction: row;                    
+                       width: 1050px;
+                       height: 620px;
+                       gap: 10px;
+                       
+        }
+
+        .img {width: 500px;
+              height: 300px;
+        }
+
+      /*INIZIO DIV1*/
+
+        .divtesto1 {position: relative;
+                    top: -300px;
+                    left: 150px;
+                    min-width: 10%;      
+                    max-width: 60%;
+                    text-align: center;
+                    width: fit-content;
+                    font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .divtesto1 > button {background-color: rgb(42, 143, 245);
+                             width: 100px;
+                             height: 30px;
+                             color: white;
+                             border-style: none;
+                             font-weight:bolder;
+                             border-bottom-left-radius: 20px;
+                             border-bottom-right-radius: 20px;
+                             border-top-left-radius: 20px;
+                             border-top-right-radius: 20px;
+        }
+
+        /*FINE DIV1*/
+
+        /*INIZIO DIV2*/
+
+        .divtesto2 {position: relative;
+                    top: -45%;
+                    left: 30%;
+                    min-width: 200px;
+                    max-width: 500px;
+                    text-align: center;
+                    width: fit-content;
+                    font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .b1 {background-color: rgb(42, 143, 245);
+             width: 100px;
+             height: 30px;
+             color: white;
+             border-style: none;
+             font-weight:bolder;
+             border-bottom-left-radius: 20px;
+             border-bottom-right-radius: 20px;
+             border-top-left-radius: 20px;
+             border-top-right-radius: 20px;
+        }
+
+        .b2 {background-color: transparent;
+             border-color: rgb(42, 143, 245);
+             color: rgb(42, 143, 245);
+             width: 50px;
+             height: 30px;
+             border-bottom-left-radius: 20px;
+             border-bottom-right-radius: 20px;
+             border-top-left-radius: 20px;
+             border-top-right-radius: 20px;
+             margin-left: 10px;
+        }
+
+        .span {font-style: italic;
+               color: rgb(42, 143, 245);
+               font-family: Rouge Script;
+               font-size: 40px;
+        }
+
+        .textgradient1 {background: -webkit-linear-gradient(140deg, #ff7e06, #e032ff, #000c8a);
+                        background-clip: unset;  
+                       -webkit-background-clip: text;
+                       -webkit-text-fill-color: transparent;
+                        text-align: center;
+                        position: relative;
+                        top: -30%;
+                        left: 30%;
+                        min-width: 200px;
+                        max-width: fit-content;
+                        font-weight: 970;
+        }
+     
+      /*FINE DIV2*/
+
+      /*INIZIO DIV3*/
+
+       .div3 {position: absolute;
+              top: 310px;
+        }
+
+      .divtesto3 {position: relative;
+                  top: -150px;
+                  left: 30%;
+                  min-width: 200px;
+                  max-width: 400px;
+                  color: white;
+                  text-align: center;
+                  width: fit-content;
+                  font-family: Arial, Helvetica, sans-serif
+        }
+
+        .b1div3 {background-color: rgb(42, 143, 245);
+                 width: 100px;
+                 height: 30px;
+                 color: white;
+                 border-style: none;
+                 font-weight:bolder;
+                 border-bottom-left-radius: 20px;
+                 border-bottom-right-radius: 20px;
+                 border-top-left-radius: 20px;
+                 border-top-right-radius: 20px;
+        }                
+
+        .b2div3 {background-color: transparent;
+                 border-color: rgb(42, 143, 245);
+                 color: rgb(42, 143, 245);
+                 width: 50px;
+                 height: 30px;
+                 border-bottom-left-radius: 20px;
+                 border-bottom-right-radius: 20px;
+                 border-top-left-radius: 20px;
+                 border-top-right-radius: 20px;
+                 margin-left: 10px;
+        }
+
+      /*FINE DIV3*/
+
+      /*INIZIO DIV4*/
+
+      .div4 {position: absolute;
+             top: 310px;
+             left: 510px;
+            }
+      
+
+      .divtesto4 {position: relative;
+                  top: -300px;
+                  left: 30%;
+                  min-width: 200px;
+                  max-width: 400px;
+                  color: white;
+                  text-align: center;
+                  width: fit-content;
+                  font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .b1div4 {background-color: rgb(42, 143, 245);
+                 width: 100px;
+                 height: 30px;
+                 color: white;
+                 border-style: none;
+                 font-weight:bolder;
+                 border-bottom-left-radius: 20px;
+                 border-bottom-right-radius: 20px;
+                 border-top-left-radius: 20px;
+                 border-top-right-radius: 20px;
+        }
+
+        .b2div4 {background-color: transparent;
+                 border-color: rgb(42, 143, 245);
+                 color: rgb(42, 143, 245);
+                 width: 50px;
+                 height: 30px;
+                 border-bottom-left-radius: 20px;
+                 border-bottom-right-radius: 20px;
+                 border-top-left-radius: 20px;
+                 border-top-right-radius: 20px;
+                 margin-left: 10px;
+        }
+
+        .textgradient2 {background: -webkit-linear-gradient(140deg, #ff7e06, #e032ff, #000c8a);
+                        background-clip: unset;  
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                        text-align: center;
+                        position: relative;
+                        top: -160px;
+                        left: 15%;
+                        min-width: 200px;
+                        max-width: 400px;
+                        font-weight: 700;
+        }
+
+      /*FINE DIV4*/
+      
+</style>
+</head>
+<body>
+<div class="divcontenitore">
+  <div class="div1">
+    <img src="https://cdn.pixabay.com/photo/2016/11/29/08/41/apple-1868496_1280.jpg" class="img">
+    <div class="divtesto1">
+        <h1>College Students</h1>
+        <p>Mac and iPad.<br>
+           Major. In any field.</p>
+        <button>Learn more</button>
+    </div>
+  </div>
+  <div class="div2">
+    <img src="https://media.istockphoto.com/id/1300986195/it/vettoriale/mockup-realistici-del-tablet-pc-pad-nero-verticale.jpg?s=2048x2048&w=is&k=20&c=ckr6bYvi0Ux0XVBs9dnLucTMQeh5df8Nm-TQnBmxUiY=" class="img">
+    <div class="divtesto2">
+      <h1>Ipad <span class="span">air</span></h1>
+      <p>Now supercharged by the M3 chip.</p>
+      <button class="b1">Learn more</button>
+      <button class="b2">Buy</button>
+    </div>
+    <div class="textgradient1">Build for Apple intelligence.</div>
+  </div>
+  <div class="div3">
+    <img src="https://media.istockphoto.com/id/1334823690/it/foto/cuffie-isolate-su-sfondo-nero.jpg?s=2048x2048&w=is&k=20&c=Gwk07N5RLqMKsDyik-EcBxPCpvz_P6-E-FJ0XjGNxXY=" class="img">
+    <div class="divtesto3">
+      <h1>AirPods Pro 2</h1>
+      <p>Now with a Hearing Aid feature.</p>
+      <button class="b1div3">Learn more</button>
+      <button class="b2div3">Buy</button>
+    </div>
+  </div>
+  <div class="div4">
+    <img src="https://media.istockphoto.com/id/656318958/it/foto/laptop-con-emissione-di-luce-dal-monitor.jpg?s=2048x2048&w=is&k=20&c=IekD8GkplfCXvENMqohBUfT6GsiDeOkhuAkPYYcUeiU=" class="img">
+    <div class="divtesto4">
+      <h1>MacBook Pro</h1>
+      <p>A work of smart.</p>
+      <button class="b1div4">Learn more</button>
+      <button class="b2div4">Buy</button>
+    </div>
+    <div class="textgradient2">Built for Apple intelligence.</div>
+  </div>
+</div>
+</body>
+</html>
