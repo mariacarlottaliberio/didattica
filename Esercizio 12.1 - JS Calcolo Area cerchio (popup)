@@ -25,9 +25,10 @@
      var raggio = 3;
      const pigreco = 3.14;
           function area() {
-                              return pigreco * raggio * raggio;
+                              return pigreco * raggio**2;
            }
            alert(area() + "cm");
+    
     
     </script>
     
