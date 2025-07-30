@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo area del triangolo equilatero</title>
+</head>
+<body>
+    <h1>Calcolo perimetro e area triangolo scaleno</h1>
+    <table>
+        <tr>
+            <th>Dati</th>
+        </tr>
+        <tr>
+            <td>Il lato del triangolo misura 3 cm</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <p>il perimetro è: <span id="perimetro"></span></p>
+    <p>L'area è: <span id="area"></span></p>
+
+    <script>
+     var lato1 = 3;
+     var base = 5;
+     var lato3 = 4
+     var altezza = prompt("inserisci altezza triangolo", "")
+
+            function perimetro() {
+                              return lato1 + base + lato3;
+           }
+    
+            function area() {
+                              return base * altezza / 2 ;
+           }
+           
+           document.getElementById("perimetro").innerHTML=perimetro() + "cm";
+           document.getElementById("area").innerHTML=area() + "cm";
+    
+    </script>
+    
+</body>
+</html>
