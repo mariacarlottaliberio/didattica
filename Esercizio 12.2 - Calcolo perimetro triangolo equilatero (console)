@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo del perimetro di un cerchio</title>
+</head>
+<body>
+    <h1>Calcolo perimetro triangolo equilatero</h1>
+    <table>
+        <tr>
+            <th>Dati</th>
+        </tr>
+        <tr>
+            <td>Il lato del triangolo misura 3 cm</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <p>Il perimetro è: </p>
+
+    <script>
+     var lato = 3;
+    
+          function perimetro() {
+                              return lato * 3;
+           }
+           
+           console.log(perimetro() + "cm");
+    
+    
+    </script>
+    
+</body>
+</html>
