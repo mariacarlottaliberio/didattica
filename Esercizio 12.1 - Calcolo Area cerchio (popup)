@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo del perimetro di un cerchio</title>
+</head>
+<body>
+    <h1>Calcolo area di un cerchio</h1>
+    <table>
+        <tr>
+            <th>Dati</th>
+        </tr>
+        <tr>
+            <td>Il raggio del cerchio misura 3 cm</td>
+        </tr>
+        <tr>
+            <td>pigreco corrisponde a 3.14</td>
+        </tr>
+    </table>
+    <hr>
+    <p>L'area è: </p>
+
+    <script>
+     var raggio = 3;
+     const pigreco = 3.14;
+          function area() {
+                              return pigreco * raggio * raggio;
+           }
+           alert(area() + "cm");
+    
+    </script>
+    
+</body>
+</html>
