@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcolo area del triangolo equilatero</title>
+</head>
+<body>
+    <h1>Calcolo area triangolo equilatero</h1>
+    <table>
+        <tr>
+            <th>Dati</th>
+        </tr>
+        <tr>
+            <td>Il lato del triangolo misura 3 cm</td>
+        </tr>
+        
+    </table>
+    <hr>
+    <p>L'area è: <span id="qui"></span></p>
+
+    <script>
+     var lato = 3;
+     var radice = Math.sqrt(3)
+    
+          function area() {
+                              return lato**2 * radice / 4;
+           }
+           
+           document.getElementById("qui").innerHTML=area() + "cm";
+    
+    
+    </script>
+    
+</body>
+</html>
