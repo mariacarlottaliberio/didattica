@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calcolo del perimetro di un cerchio</title>
+    <script>
+      function myFunction() {
+                      document.getElementById("result").innerHTML = "28,26 cm";
+      }
+    </script>
 </head>
 <body>
     <h1>Calcolo area di un cerchio</h1>
@@ -19,7 +24,8 @@
         </tr>
     </table>
     <hr>
-    <p>L'area è:  <button onclick="document.write('28,26 cm')">clicca per il risultato</button> </p>
+    <p>L'area è: <span id="result">...</span> </p>
+    <button type="button" onclick="myFunction()">Clicca per il risultato</button> 
 
     
 </body>
