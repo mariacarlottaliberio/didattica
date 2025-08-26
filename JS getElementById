@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taylor Swift</title>
+    <style>
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            background-color: beige;
+          
+        }
+
+        
+        h1 {
+            text-align: center;
+            color: midnightblue;
+            margin-top: 20px;
+            font-size: 80px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.1);
+        }
+
+        
+        .button {
+            display: inline-block;
+            margin: 10px 5px;
+            padding: 10px 20px;
+            background-color: midnightblue;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            font-size: 20px;
+            cursor: pointer;
+            transition: 0.3s;
+            text-align: center;
+            margin-bottom: 15px;
+        }
+
+        .button:hover {
+            background-color: grey;
+            transform: scale(1.5);
+        }
+
+        #header, #main, #footer {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: larger;
+            margin-left: 10px;
+            margin-right: 10px;
+            text-align: center;
+            color:brown;
+        }
+
+
+    </style>
+    <script>
+        function Header() {
+            var contenuto = document.getElementById("header").innerHTML = "Taylor Alison Swift (West Reading, 13 dicembre 1989) è una cantautrice e imprenditrice statunitense, l'artista di maggior successo commerciale del XXI secolo in patria secondo Billboard. È l’artista dal vivo con i maggiori incassi, la musicista donna più ricca della storia e una delle cantanti più vendute di tutti i tempi. Riconosciuta come una figura di spicco nella storia della musica country e pop, con vendite stimate di 200 milioni di copie a livello globale tra album e singoli, è una degli artisti di maggior successo discografico nell'era digitale. È la prima artista in assoluto a ricevere il Global Recording Artist of the Year dell'IFPI, riconoscimento assegnato per il maggior numero di vendite globali, per cinque anni (di cui tre consecutivi a partire dal 2022).";
+        }
+
+        function Main() {
+            var middle = document.getElementById("main").innerHTML = "È la solista con più settimane (86 in tutto) trascorse alla prima posizione della classifica Billboard 200 nella storia: ha infatti superato il primato femminile precedentemente detenuto da Whitney Houston (46) e il record maschile appartenuto ad Elvis Presley (67). All'interno della stessa classifica occupa il secondo posto come artista con più settimane trascorse in prima posizione in assoluto, dietro solamente ai Beatles (132). La stessa rivista l'ha eletta anche la più grande pop star del XXI secolo, e la seconda migliore pop star soltanto dietro a Beyoncé.";
+        }
+
+        function Footer() {
+            var footer = document.getElementById("footer").innerHTML = "Nel 2023 Swift è stata eletta persona dell'anno da Time, diventando la prima intrattenitrice nella storia a ricevere tale titolo. È stata l'artista più ascoltata sia nel 2023, con oltre 29 miliardi di riproduzioni (il massimo per qualunque artista in un anno solare), che nel 2024, con oltre 26 miliardi di riproduzioni.";
+        }
+    
+    </script>
+</head>
+<body>
+
+    <h1>Taylor Swift</h1>
+
+    <button class="button" onclick="Header()">Header</button> 
+    <div id="header"></div>
+        
+    <button class="button" onclick="Main()">Main</button>
+    <div id="main"></div>
+        
+    <button class="button" onclick="Footer()">Footer</button> 
+    <div id="footer"></div>
+        
+    
+</body>
+</html>
