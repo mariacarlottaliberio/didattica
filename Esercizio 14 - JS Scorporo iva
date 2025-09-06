@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scorporo iva</title>
+</head>
+<body>
+    <button onclick="scorporoiva()">Scorporo iva</button>
+    <p id="prezzonoiva"></p>
+    <script>
+        
+        function scorporoiva(){
+            prezzo = prompt("inserisciprezzo", "");
+            prezzo /= 1.22;
+
+            prezzonoiva.innerHTML = "€" + prezzo;
+        }
+    </script>
+</body>
+</html>
