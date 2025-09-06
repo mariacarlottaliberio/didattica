@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Applicazione sconto</title>
+</head>
+<body>
+    <p>Prezzo originale = €50</p>
+    <p>Sconto applicato = 30%</p>
+    <button onclick="calcolosconto()">Prezzo con 30% di sconto</button>
+    <p id="prezzoscontato"></p>
+
+    <script>
+        var prezzoprodotto = 50;
+        var sconto = 30;
+
+        function calcolosconto() {
+            var importosconto = (prezzoprodotto * sconto) / 100;
+            var prezzofinale = prezzoprodotto - importosconto;
+
+            prezzoscontato.innerHTML = "€" + prezzofinale;
+        }
+
+           
+    </script>
+</body>
+</html>
