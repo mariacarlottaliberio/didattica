@@ -37,19 +37,31 @@
             #home, #luoghidiinteresse, #dovemangiare {color: rgb(122, 69, 0);
             }
 
-            .dropdown-menu {background-color: transparent;  
+            .dropdown-menu {background-color: burlywood;  
             }
 
             .dropdown-item {color: rgba(58, 34, 17, 0.595);
             }
 
             #bottonecerca {color: rgba(58, 34, 17, 0.595);
+                           font-weight: bolder;
+                           border-color: brown;
+                           border: solid;
+                           background-color: burlywood;
             }
 
 
             #carouselExampleFade {padding: 20px 40px 20px 40px;
             }
 
+            .carousel-control-prev-icon {background-color: black; 
+            }
+
+            .carousel-control-next-icon {background-color: black;
+            }
+     
+
+            
         </style>
 
     </head>
