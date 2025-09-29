@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<style>
+label {font-weight: 500;
+       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+       font-size: larger;
+       font-style: italic;
+       color: blue;
+}
+
+button {margin-top: 10px;
+        padding: 10px 10px 10px 10px;
+        border: dotted;
+        background-color: rgb(135, 6, 255);
+        color: white;
+        border-radius: 6px;
+}
+
+p {font-weight: 500;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-style: italic;
+    color: blue;
+    border: solid;
+    margin-right: 70%;
+}
+</style>
+</head>
+
+<h1>Form</h1>
+<label>Nome</label><br>
+<input type="text" id="nome">
+<br>
+<label>Cognome</label><br>
+<input type="text" id="cognome">
+<br>
+<label>Età</label><br>
+<input type="text" id="eta">
+<br>
+<label>Indirizzo di residenza</label><br>
+<input type="text" id="residenza">
+<br>
+<label>Mail</label><br>
+<input type="text" id="mail">
+<br>
+
+<button type="button"onclick="stampainformazioni()">Invio</button>
+
+<p id="daticompleti">Dati completi</p>
+
+<script>
+function stampainformazioni() {
+var nome = document.getElementById("nome").value;
+var cognome = document.getElementById("cognome").value;
+var eta = Number(document.getElementById("eta").value);
+var residenza = document.getElementById("residenza").value;
+var mail = document.getElementById("mail").value;
+
+daticompleti.innerHTML = nome + "<br>" + cognome + "<br>"+ eta + "<br>" + residenza + "<br>" + mail;
+}
+
+</script>
+</body>
+</html> 
