@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .th {border: double;
+            text-align: center;
+            width: 20%;
+            height: 50px;
+            border-color: coral;
+
+        }
+        
+        .td {text-align: center;
+            border-color: chocolate;
+            border-style: dashed;
+        }
+
+        .mia-classe {color: red;
+                    border-radius: 30%;
+                    border-style: dotted;
+        }
+
+    </style>
+</head>
+<body>
+<h1>FUNZIONI</h1>
+
+    <table class="table">
+        <tr>
+            <th class="th">Elemento 1</th><th class="th">Elemento 2</th><th class="th">Elemento 3</th>
+        </tr>
+        <tr>
+            <td class="td"><button onclick="Funzione1()">Clicca</button></td>
+            <td class="td"><button onclick="Funzione2(prompt('Inserisci la tua data di nascita:',''))">Clicca</button></td>
+            <td class="td"><button onclick="Funzione3()">Clicca</button></td>
+        </tr>
+    </table>
+
+  <p id="div1"></p>
+  <p id="stampadata"></p>
+
+<script>
+    function Funzione1(){
+        var a = document.createElement("div");
+        var b = document.createTextNode("Creazione Elemento 1");
+        a.appendChild(b);
+        var c = document.getElementById("div1"); 
+        document.body.insertBefore(a,c);
+    }
+
+    function Funzione2(datadinascita){
+        stampadata.innerHTML = datadinascita;
+    }
+
+    function Funzione3(){
+        document.querySelectorAll("button").forEach(btn => btn.classList.add("mia-classe"));
+    }
+    addClassToButtons();
+</script>
+</body>
+</html>
