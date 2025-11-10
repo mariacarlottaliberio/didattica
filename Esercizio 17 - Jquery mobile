@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jquery</title>
+
+    <link href="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.js"></script>
+    <link id="night" rel="stylesheet" href="https://demos.jquerymobile.com/1.4.5/css/themes/default/jquery.mobile-1.4.5.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <style>
+        .bka {
+            background-color: blueviolet;
+            color: white;
+            text-align: center;
+        }
+
+        .bkb {
+            background-color: green;
+            color: white;
+            text-align: center;
+        }
+
+        .ui-page {
+            background-image: url("https://media.istockphoto.com/id/2191160814/it/foto/game-night-insegna-al-neon-illuminata-contro-un-muro-di-mattoni.jpg?s=2048x2048&w=is&k=20&c=n2trYtJ-iRhdI7YgjDlicttCPD5jrs3lcbIctrM1VDo=");
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+        }
+    </style>
+</head>
+<body>
+    <div data-role="page">
+
+        <div data-role="header">
+            <h1>GIOCHI DA TAVOLO</h1>
+
+            <!--NAVBAR-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#" class="ui-btn-active">Home</a></li>
+                    <li><a href="#">Giochi</a></li>
+                    <li><a href="#">Ricerca</a></li>
+                </ul>
+            </div>
+            <!--FINE NAVBAR-->
+        
+        </div>
+
+        <div role="main" class="ui-content">
+            <div class="ui-grid-a border">
+                <div class="ui-block-a bka">Giochi da tavolo: grandi classici
+                    <button onclick="changedark()">Tema Scuro</button>
+                        <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=AuWvMgYv03g">
+                                <img src="https://cf.geekdo-images.com/9nGoBZ0MRbi6rdH47sj2Qg__itemrep@2x/img/Zz16xaNMWZagI4qS2JrJmCTVsow=/fit-in/492x600/filters:strip_icc()/pic5786795.jpg">
+                                <h2>Monopoly</h2>
+                                <p>Classico gioco di compravendita immobiliare.
+                                    <br>
+                                    2 - 6 Giocatori
+                                </p>
+                                </a>
+
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=tlCcz05Fkrc&pp=ygUPcmlzaWtvIHR1dG9yaWFs0gcJCQMKAYcqIYzv">
+                                <img src="https://cf.geekdo-images.com/FhJHH2hxyCWVe-22KB5zTQ__itemrep@2x/img/w3844xz0-dzAUrC8GBPtp1u5fJE=/fit-in/492x600/filters:strip_icc()/pic5669315.jpg">
+                                <h2>Risiko</h2>
+                                <p>Gioco di strategia e conquista territoriale.
+                                    <br>
+                                    3 - 6 Giocatori
+                                </p>
+                                </a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=8qDt03GpH-0">
+                                <img src="https://cf.geekdo-images.com/mVmmntn2oQd0PfFrWBvwIQ__itemrep@2x/img/vcGsi6l6XMyjIGctlmK9TVd6pQQ=/fit-in/492x600/filters:strip_icc()/pic404651.jpg">
+                                <h2>Scarabeo</h2>
+                                <p>Gioco in cui si formano parole su una griglia per fare punti.
+                                    <br>
+                                    2 - 4 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=P8NYfYRZ5H4&pp=ygUTY2x1ZWRvIHR1dG9yaWFsIGl0YQ%3D%3D">
+                                <img src="https://cf.geekdo-images.com/5NJKy5K9c0tyCTnTWFekeQ__itemrep/img/gIffB0ss-zogO4mmJTmGBMh6Wkw=/fit-in/246x300/filters:strip_icc()/pic3181978.png">
+                                <h2>Cluedo</h2>
+                                <p>Gioco investigativo di deduzione su un omicidio.
+                                    <br>
+                                    2 - 6 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=N3jEsVP8YXg&pp=ygUcdHJpdmlhbCBwdXJzdWl0IHR1dG9yaWFsIGl0YQ%3D%3D">
+                                <img src="https://cf.geekdo-images.com/CSILODNknzqhsDxeP8jmgw__itemrep@2x/img/u6EFZYGqKpIfPqaI7CgwnQ5fPbY=/fit-in/492x600/filters:strip_icc()/pic6912883.jpg">
+                                <h2>Trivial Pursuit</h2>
+                                <p>Gioco a quiz di cultura generale.
+                                    <br>
+                                    2 - 6 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=OGvBD8reS_U&pp=ygUSZGl4aXQgdHV0b3JpYWwgaXRh">
+                                <img src="https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__itemrep@2x/img/KLwExlTzRJJWirlhiyev9WV_pXQ=/fit-in/492x600/filters:strip_icc()/pic6738336.jpg">
+                                <h2>Dixit</h2>
+                                <p>Gioco in cui si raccontano storie o indizi con carte illustrate per farle indovinare agli altri.
+                                    <br>
+                                    3 - 6 Giocatori
+                                </p></a>
+                            </li>
+                        </ul>
+                </div>
+
+                <div class="ui-block-b bkb">Giochi da tavolo: giochi da scoprire
+                    <button onclick="changelight()">Tema Chiaro</button>
+                    <ul data-role="listview" data-split-icon="gear" data-split-theme="a" data-inset="true">
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=EDaObbZJnSg&pp=ygUVN3dvbmRlcnMgdHV0b3JpYWwgaXRh">
+                                <img src="https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__itemrep@2x/img/C1Q2lgN2URAqsAtanK5XI72phN8=/fit-in/492x600/filters:strip_icc()/pic7149798.jpg">
+                                <h2>7 Wonders</h2>
+                                <p>Gioco di strategia in cui i giocatori costruiscono civiltà scegliendo carte per sviluppare risorse, edifici e meraviglie.
+                                    <br>
+                                    3 - 7 Giocatori
+                                </p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://www.youtube.com/watch?v=adWsXtTqt08&pp=ygUQYW5raHR1dG9yaWFsIGl0YQ%3D%3D">
+                                <img src="https://cf.geekdo-images.com/_al0scMG_pQfGVM31Scf1Q__itemrep@2x/img/HW7dvvPEnzTVA2wwAaLtChQnfKM=/fit-in/492x600/filters:strip_icc()/pic6107853.jpg">
+                                <h2>Ankh: Divinità Egizie</h2>
+                                <p>Gioco in cui i giocatori interpretano divinità egizie e competono per il dominio e la devozione.
+                                    <br>
+                                    2 - 5 Giocatori
+                                </p>
+                                </a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=2lY8jJL6etQ&pp=ygUZc2NvdGxhbmQgeWFyZCB1dG9yaWFsIGl0YQ%3D%3D">
+                                <img src="https://cf.geekdo-images.com/yEhaXszPTy5N4hiY469DPA__itemrep/img/V9qe3zL7yZFljRg6A4EWWRH0g4s=/fit-in/246x300/filters:strip_icc()/pic8377405.jpg">
+                                <h2>Scotland Yard</h2>
+                                <p>Gioco in cui un giocatore è un criminale da catturare e gli altri detective lo inseguono per tutta Londra.
+                                    <br>
+                                    3 - 6 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=8Cua_l800hc">
+                                <img src="https://cf.geekdo-images.com/LPa6rsGcv8S0-OeNjCOAEQ__itemrep@2x/img/LWho2GMg9S2-oZaC51J90YjPLxM=/fit-in/492x600/filters:strip_icc()/pic1398895.jpg">
+                                <h2>Avalon</h2>
+                                <p>Gioco di deduzione e bluff in cui i giocatori assumono ruoli segreti per completare missioni o sabotarle.
+                                    <br>
+                                    5 - 10 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=2xQQ7a_2y3Y&pp=ygUYdGVycm9yc2NhcGUgdHV0b3JpYWwgaXRh">
+                                <img src="https://cf.geekdo-images.com/rjZM9iiR9ZpWtk4-4-sZhQ__itemrep@2x/img/6DXTcJjB4GB1gDuxXLDkeP3tXGs=/fit-in/492x600/filters:strip_icc()/pic7436308.png">
+                                <h2>Terrorscape</h2>
+                                <p>Gioco horror asimmetrico in cui un giocatore è il killer e gli altri cercano di sopravvivere e fuggire.
+                                    <br>
+                                    2 - 6 Giocatori
+                                </p></a>
+                            </li>
+                            <li><a href="https://www.youtube.com/watch?v=fEuky_43mjw">
+                                <img src="https://cf.geekdo-images.com/1qvA21HdRaPYwrn4tGDNaQ__itemrep@2x/img/u282aOGplMokEqS8ID7MuYwjnNs=/fit-in/492x600/filters:strip_icc()/pic8689185.jpg">
+                                <h2>Skull King</h2>
+                                <p>Gioco di prese in cui i giocatori scommettono quante mani riusciranno a vincere, cercando di accumulare punti.
+                                    <br>
+                                    2 - 6 Giocatori
+                                </p></a>
+                            </li>
+                        </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+<script>
+    function changedark() {
+        document.getElementById("night").href = "https://demos.jquerymobile.com/1.4.5/theme-classic/theme-classic.css";
+    }
+
+    function changelight() {
+        document.getElementById("night").href = "https://demos.jquerymobile.com/1.4.5/css/themes/default/jquery.mobile-1.4.5.min.css";
+    }
+</script>
+</body>
+</html>
