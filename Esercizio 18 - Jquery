@@ -12,6 +12,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
     <style>
+        .paragrafi {
+            align-items: center;
+            text-align: center;
+            background-color: white;
+            color: darkorchid;
+        }
+
         .bka {
             background-color: blueviolet;
             color: white;
@@ -30,26 +37,62 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
         }
+
     </style>
 </head>
 <body>
-    <div data-role="page">
 
+    <!-- INIZIO PRIMA PAGINA: HOME -->
+    <div data-role="page" id="home">
         <div data-role="header">
-            <h1>GIOCHI DA TAVOLO</h1>
+        <h1><img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/>GIOCHI DA TAVOLO<img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/></h1>
+        
+        <!--NAVBAR-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#giochi">Giochi</a></li>
+                    <li><a href="#cerca">Cerca</a></li>
+                </ul>
+            </div>
+            <!--FINE NAVBAR-->
+        </div>
+        
+        <div data-role="header">
+		    <h1>WELCOME!</h1>
+	    </div>
+        <div role="main" class="ui-content">
+		    <p class="paragrafi">
+                <img width="50" height="50" src="https://img.icons8.com/external-icons-smashing-stocks/68/external-Dices-wiccan-vectors-icons-smashing-stocks.png" alt="external-Dices-wiccan-vectors-icons-smashing-stocks"/>
+                <br> 
+                Benvenuto nel mondo dei giochi da tavolo! <br>
+                Se ami le sfide strategiche, le serate in compagnia o semplicemente il piacere di condividere un momento lontano dagli schermi, sei nel posto giusto. <br> 
+                Qui troverai giochi per tutti i gusti: dai grandi classici che hanno fatto la storia, alle novità più originali e sorprendenti. <br>
+                Che tu sia un giocatore esperto sempre alla ricerca del prossimo titolo da provare o un neofita curioso di scoprire questo fantastico universo, il nostro obiettivo è guidarti alla scoperta del gioco perfetto per te. <br> 
+                Preparati a lanciare dadi, elaborare strategie e, soprattutto, divertirti! <br>
+                Pronto a iniziare la partita?
+                
+            </p>
+	    </div>
+    </div>
+    <!-- FINE PAGINA HOME -->
+
+    <!--INIZIO SECONDA PAGINA: GIOCHI-->
+    <div data-role="page" id="giochi">
+        <div data-role="header">
+            <h1><img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/>GIOCHI DA TAVOLO<img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/></h1>
 
             <!--NAVBAR-->
             <div data-role="navbar">
                 <ul>
-                    <li><a href="#" class="ui-btn-active">Home</a></li>
-                    <li><a href="#">Giochi</a></li>
-                    <li><a href="#">Ricerca</a></li>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#giochi">Giochi</a></li>
+                    <li><a href="#cerca">Cerca</a></li>
                 </ul>
             </div>
             <!--FINE NAVBAR-->
         
         </div>
-
         <div role="main" class="ui-content">
             <div class="ui-grid-a border">
                 <div class="ui-block-a bka">Giochi da tavolo: grandi classici
@@ -64,12 +107,11 @@
                                     2 - 6 Giocatori
                                 </p>
                                 </a>
-
                             </li>
                             <li>
                                 <a href="https://www.youtube.com/watch?v=tlCcz05Fkrc&pp=ygUPcmlzaWtvIHR1dG9yaWFs0gcJCQMKAYcqIYzv">
                                 <img src="https://cf.geekdo-images.com/FhJHH2hxyCWVe-22KB5zTQ__itemrep@2x/img/w3844xz0-dzAUrC8GBPtp1u5fJE=/fit-in/492x600/filters:strip_icc()/pic5669315.jpg">
-                                <h2>Risiko</h2>
+                                <h2>Risiko!</h2>
                                 <p>Gioco di strategia e conquista territoriale.
                                     <br>
                                     3 - 6 Giocatori
@@ -166,12 +208,64 @@
                                     2 - 6 Giocatori
                                 </p></a>
                             </li>
-                        </ul>
+                    </ul>
                 </div>
-
             </div>
         </div>
     </div>
+    <!--FINE PAGINA GIOCHI-->
+
+    <!--INIZIO TERZA PAGINA: RICERCA-->
+        <div data-role="page" id="cerca">
+            <div data-role="header">
+                <h1><img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/>GIOCHI DA TAVOLO<img width="25" height="25" src="https://img.icons8.com/wired/64/restaurant-table.png" alt="restaurant-table"/></h1>
+        
+        <!--NAVBAR-->
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="#home" class="ui-btn-active">Home</a></li>
+                    <li><a href="#giochi">Giochi</a></li>
+                    <li><a href="#cerca">Cerca</a></li>
+                </ul>
+            </div>
+            <!--FINE NAVBAR-->
+            </div>
+        
+            <div role="main" class="ui-content">
+		        <p class="paragrafi">
+                    <br>
+                    <img width="26" height="26" src="https://img.icons8.com/metro/26/search.png" alt="search"/>
+                    <br>            
+                    CERCA! <br>
+                    Benvenuto nella sezione di ricerca dedicata ai giochi da tavolo! <br> 
+                    Qui puoi trovare in modo semplice e veloce il titolo perfetto per ogni occasione. <br>
+                    Che tu stia cercando un gioco specifico o voglia esplorare nuove proposte, questa funzione ti aiuterà a orientarti nel vasto mondo dei board games. <br>
+                    Inserisci una parola chiave, filtra per categoria, età, numero di giocatori o durata della partita e scopri subito quali giochi rispondono alle tue esigenze. <br>
+                    La ricerca è pensata per guidarti passo dopo passo, permettendoti di confrontare le opzioni e trovare il gioco ideale <br>
+                    per il tuo gruppo e il tempo che hai a disposizione. <br>
+                    Preparati a scoprire giochi nuovi, rivedere grandi classici e lasciarti ispirare!
+                </p>
+                <br>
+                <br>
+                <br>
+                <ul data-role="listview" data-filter="true" data-filter-reveal="true" data-filter-placeholder="Cerca giochi..." data-inset="true">
+                    <li><a href="https://www.goblins.net/giochi/monopoly-5524">Monopoly</a></li>
+                    <li><a href="https://www.goblins.net/giochi/risiko-74705">Risiko</a></li>
+                    <li><a href="https://www.goblins.net/giochi/scrabble-4949">Scarabeo</a></li>
+                    <li><a href="https://www.goblins.net/giochi/clue-66355">Cluedo</a></li>
+                    <li><a href="https://www.goblins.net/recensioni/trivial-pursuit">Trivial Pursuit</a></li>
+                    <li><a href="https://www.goblins.net/giochi/dixit-9407">Dixit</a></li>
+                    <li><a href="https://www.goblins.net/giochi/7-wonders-10470">7 Wonders</a></li>
+                    <li><a href="https://www.goblins.net/giochi/ankh-gods-egypt-59118">Ankh: Divinità Egizie</a></li>
+                    <li><a href="https://www.goblins.net/giochi/scotland-yard-9187">Scotland Yard</a></li>
+                    <li><a href="https://www.goblins.net/giochi/resistance-avalon-11955">Avalon</a></li>
+                    <li><a href="https://www.goblins.net/giochi/terrorscape-76182">Terrorscape</a></li>
+                    <li><a href="https://www.goblins.net/giochi/skull-king-13039">Skull King</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <!--FINE PAGINA RICERCA-->
 
 <script>
     function changedark() {
