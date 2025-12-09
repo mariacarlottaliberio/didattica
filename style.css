@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+header, footer {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+div {
+    padding: 20px;
+}
+
+button {
+    
+    padding: 10px 15px;
+    cursor: pointer;
+    border: none;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    margin-left: 5px;
+    
+}
