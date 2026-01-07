@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operazioni php</title>
+</head>
+<body>
+<h2>Perimetro quadrato</h2>
+        <form action="esercizioquadrato.php" method="post">
+            <input type="hidden" name="azione" value="perimetro">
+            <label>Inserisci la misura del lato del quadrato</label><br>
+            <input type="number" name="latoperimetro" required><br>
+            <input type="submit" value="Calcola perimetro"> 
+        </form>
+    
+<h2>Area quadrato</h2>
+    <form action="esercizioquadrato.php" method="post">
+            <input type="hidden" name="azione" value="area">
+        <label>Inserisci la misura del lato del quadrato</label><br>
+        <input type="number" name="latoarea" required><br>
+        <input type="submit" value="Calcola area"> 
+    </form>
+    
+</body>
+</html>
