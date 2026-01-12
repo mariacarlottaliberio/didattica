@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="stylees.css">
+</head>
+<body>
+
+    <h1>BONUS ELETTRODOMESTICI</h1>
+    <hr>
+    <p class="psottotitolo">Il Bonus Elettrodomestici è un contributo del Ministero delle Imprese e del Made in Italy che incentiva la sostituzione di un grande elettrodomestico con un modello ad alta efficienza, per promuovere la sostenibilità e la transizione energetica.</p>
+    <br>
+    <div class="container">
+        <div></div>
+            <div>
+                <h2>Quanto vale il bonus</h2>
+                <hr>                
+                <p class="pgrid">Il bonus viene applicato direttamente al momento dell'acquisto e copre fino al 30% del prezzo.<br>
+                Lo sconto massimo che puoi ottenere è:</p>
+                    <ul>
+                    <li><strong>Fino a €100</strong> se il tuo ISEE è superiore a €25.000;</li>
+                    <li><strong>Fino a €200</strong> se il tuo ISEE è inferiore a €25.000.</li>
+                    </ul>
+                    
+                    <br>
+                <h2>Chi può richiederlo</h2>
+                <hr>
+                <p class="pgrid">Puoi presentare la domanda se:
+                    <ul>
+                    <li>Sei <strong>maggiorenne</strong>;</li>
+                    <li><strong>Risiedi in Italia</strong>;</li>
+                    <li>Hai un'identità digitale <strong>SPID</strong> o <strong>CIE</strong>;</li>
+                    <li>Acquisti un elettrodomestico nuovo e smaltisci uno vecchio dello stesso tipo e di classe energetica inferiore.</li>
+                    </ul>
+                </p>
+          
+
+
+
+    <h3>Verifica se sei idoneo al bonus</h3>
+    <form action="bonuselettrodomestici.php" method="post" onmousemove="shadow()" id="rs">
+        <label>Quanti anni hai?</label><br>
+        <input type="number" name="anni" min="1" class="inputbox" required>
+        <br><br>
+        <label for="residenza">Residenza:</label><br>
+        <select id="paese" name="paese"  class="inputbox" required>
+            <option value="" disabled selected>-- Seleziona un'opzione --</option>
+            <option value="fr">Francia</option>
+            <option value="de">Germania</option>
+            <option value="es">Spagna</option>
+            <option value="it">Italia</option>
+        </select>
+        <br><br>
+        <label for="identitadigitale">Possiedi un'identità digitale SPID o CIE?</label><br>
+        <select name="id" id="id"  class="inputbox" required>
+            <option value="" disabled selected>-- Seleziona un'opzione --</option>
+            <option value="SPID">SPID</option>
+            <option value="CIE">CIE</option>
+            <option value="No">Non la possiedo</option>
+        </select>
+        <br><br>
+        <label for="ISEE">Indica il valore del tuo ISEE:</label><br>
+        <input type="text" name="isee"  class="inputbox" required>
+        <br><br>
+        <button type="submit" class="button" value="Verifica">Verifica</button>
+        
+    </form>
+
+      </div>
+        <div></div>
+    </div>
+
+</body>
+</html>
